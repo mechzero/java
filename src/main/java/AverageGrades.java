@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class AverageGrades {
 
 
@@ -38,10 +36,38 @@ public class AverageGrades {
 
     public static void main (String[] args){
 
+       displayJsonGrades();
+
+
+
+    }
+
+    public static void displayJsonGrades() {
+
+        String filePathOfFile = "src/main/resources/userData.json";
+
+        // Create object of parseJson, to access the json parsing tools
+        ParsingJson parseJson = new ParsingJson();
+
+        parseJson.parseJsonFile(filePathOfFile);
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+    public static void display () {
+
         System.out.println("Sum of given array is: " + sum());
 
         System.out.println(" The Average of the given array is: " + average());
-
 
     }
 

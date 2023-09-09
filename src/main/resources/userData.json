@@ -1,0 +1,36 @@
+{
+  "name": "John Doe",
+  "age": 30,
+  "email": "johndoe@example.com",
+  "address": {
+    "street": "123 Main St",
+    "city": "New York",
+    "zipcode": "10001"
+  },
+  "hobbies": [
+    {
+      "name": "Hiking",
+      "location": "Mountain Trails"
+    },
+    {
+      "name": "Reading",
+      "genre": "Mystery"
+    }
+  ],
+  "friends": [
+    {
+      "name": "Jane Smith",
+      "age": 28
+    },
+    {
+      "name": "Michael Johnson",
+      "age": 32
+    }
+  ],
+  "isStudent": false,
+  "scores": {
+    "math": 95,
+    "science": 88,
+    "history": 75
+  }
+}
